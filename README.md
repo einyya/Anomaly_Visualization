@@ -21,7 +21,7 @@ To produce the visualizations:
 
 ## Animated Example
 
-![Transformer Training Process](layer VS layer Delta (query).gif)
+![Layer vs Layer Delta - Query](layer%20VS%20layer%20Delta%20(query).gif)
 
 ---
 
