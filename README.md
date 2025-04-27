@@ -1,6 +1,41 @@
-# Anomaly_Visualization
-In order to extract data for plots ,use the original paper's git, but replace "solver" file with ours.
+# Transformer Visualization
 
-To produce the plots, run the "plots" file while using the paths of the extracted data.
+Animated analysis of training dynamics in the Anomaly Transformer model.
 
-The original git path is https://github.com/thuml/Anomaly-Transformer
+We visualize and animate the evolution of key and query projection weights throughout the training process, providing a deeper understanding of the Transformer's behavior in anomaly detection tasks.
+
+---
+
+## Setup
+
+To extract data for plotting:
+
+- Clone the [original Anomaly Transformer repository](https://github.com/thuml/Anomaly-Transformer).
+- Replace the `solver.py` file with the version provided in this project.
+
+To produce the visualizations:
+
+- Run the `plots.py` script using the paths to the extracted data.
+
+---
+
+## Animated Example
+
+![Transformer Training Process](key_vs_query_delta_l1.gif)
+
+---
+
+## Project Report
+
+For a detailed analysis of the training process and insights gained:
+[Transformer Visualization Report (PDF)](Transformer_Visualization_Report.pdf)
+
+---
+
+## Credits
+
+Based on the paper:  
+**"Anomaly Transformer: Time Series Anomaly Detection With Association Discrepancy"**  
+by Jiehui Xu, Haixu Wu, Jianmin Wang, and Mingsheng Long.
+
+---
