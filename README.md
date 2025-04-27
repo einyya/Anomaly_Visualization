@@ -21,14 +21,14 @@ To produce the visualizations:
 
 ## Animated Example
 
-![Transformer Training Process](key_vs_query_delta_l1.gif)
+![Transformer Training Process](layer VS layer Delta (query).gif)
 
 ---
 
 ## Project Report
 
 For a detailed analysis of the training process and insights gained:
-[Transformer Visualization Report (PDF)](Transformer_Visualization_Report.pdf)
+[Transformer Visualization Report (PDF)](transformer_visualization_report.pdf)
 
 ---
 
